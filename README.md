@@ -2,6 +2,8 @@
 
 This bot retweets the latest tweet using the "#mediaarts" hashtag. It attempts to retweet once per hour.
 
+_Note: you must be comfortable using your computer's command line interface to use this bot. If you've never used it, there are tutorials for [Mac OSX](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) and [Windows](http://www.bleepingcomputer.com/tutorials/windows-command-prompt-introduction/)._
+
 ##Installation
 
 If you don't already have have them, please install [Node.js](http://nodejs.org/). This will install two programs: `node`, which runs JavaScript from the command line, and `npm`, which helps you install software that Node.js can run.
@@ -9,6 +11,9 @@ If you don't already have have them, please install [Node.js](http://nodejs.org/
 Make an empty project directory somewhere convenient for you, [download this file](https://github.com/dariusk/examplebot/archive/master.zip), and unzip the contents to your project directory. Go to your project directory in the command line. There should be four files there: `.gitignore`, `README.md`, `bot.js`In that directory type:
 
 `npm install request`
+
+...and when that's done:
+
 `npm install twit`
 
 This installs some code to the `npm_modules` subdirectory, which you don't need to worry about.
@@ -44,4 +49,4 @@ Now type the following in the command line in your project directory:
 
 `node bot.js`
 
-This will give you some output, including, after a bit, a bunch of text that is the tweet that's just been tweeted. You can check the twitter account to see if it's updated to verify that it actually works.
+Hopefully at this point you see a message like "Success! Check your bot, it should have retweeted something." Check the Twitter account for your bot, and it should have retweeted a tweet with the #mediaarts hashtag.
