@@ -1,22 +1,20 @@
 // Our Twitter library
 var Twit = require('twit');
-// A library that lets us grab data from the web via HTTP
-var request = require('request');
 
 // We need to include our configuration file
 var T = new Twit(require('./config.js'));
 
 // This is the URL of a search for the latest tweets on the '#mediaarts' hashtag.
-// Note that '%23' is the hexadecimal code for '#', and 'rpp=10' means we get 10 results (maximum of 20 allowed)
-var mediaArtsSearch = "https://search.twitter.com/search.json?callback=?&rpp=10&q=%23mediaarts&result_type=recent";
+var mediaArtsSearch = {q: "#mediaarts", count: 10, result_type: "recent"}; 
 
 // This function finds the latest tweet with the #mediaarts hashtag, and retweets it.
 function retweetLatest() {
-	request({url: mediaArtsSearch, json: true}, function (error, response, body) {
+	T.get('search/tweets', mediaArtsSearch, function (error, data) {
 	  // If our search request to the server had no errors...
-	  if (!error && response.statusCode == 200) {
+console.log(error, data);
+	  if (!error) {
 	  	// ...then we grab the ID of the tweet we want to retweet...
-		var retweetId = body.results[0].id_str;
+		var retweetId = data.statuses[0].id_str;
 		// ...and then we tell Twitter we want to retweet it!
 		T.post('statuses/retweet/' + retweetId, { }, function (error, response) {
 			if (response) {
