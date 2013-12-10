@@ -10,8 +10,9 @@ var mediaArtsSearch = {q: "#mediaarts", count: 10, result_type: "recent"};
 // This function finds the latest tweet with the #mediaarts hashtag, and retweets it.
 function retweetLatest() {
 	T.get('search/tweets', mediaArtsSearch, function (error, data) {
+	  // log out any errors and responses
+	  console.log(error, data);
 	  // If our search request to the server had no errors...
-console.log(error, data);
 	  if (!error) {
 	  	// ...then we grab the ID of the tweet we want to retweet...
 		var retweetId = data.statuses[0].id_str;
