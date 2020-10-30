@@ -1,0 +1,367 @@
+{
+	game: "Duke Nukem 3D",
+	character: "Duke Nukem",
+	quotes: [
+		{quote: "Blow it out your ass!",
+		 replacables: [
+			{position: 1,
+			 type: "noun"},
+			 {position: 5,
+			 type: "noun"}
+		 ]},
+		 {quote: "Come get some!",
+		  replacables: [
+			{position: 2,
+			 type: "noun"},
+		 ]},
+		 {quote: "Damn... I'm looking good!",
+		  replacables: [
+			{position: 3,
+			 type: "adjective"},
+		 ]},
+		 {quote: "Damn, those alien bastards are gonna pay for shooting up my ride.",
+		  replacables: [
+			{position: 2,
+			 type: "adjective"},
+			 position: 10,
+			 type: "noun"}
+		 ]},
+		 {quote: "Damn, that was annoying!",
+		  replacables: [
+			{position: 1,
+			 type: "noun"},
+			 position: 3,
+			 type: "adjective"}
+		 ]},
+		 {quote: "Damn, that's the second time those alien bastards shot up my ride!",
+		  replacables: [
+			{position: 4,
+			 type: "noun"},
+			 {position: 6,
+			 type: "adjective"}
+			 {position: 11,
+			 type: "noun"}
+		 ]},
+		 {quote: "Damn, you're ugly.",
+		 replacables: [
+			{position: 2,
+			 type: "adjective"}
+		 ]},
+		 {quote: "Die, you son of a bitch!",
+		 replacables: [
+			{position: 6,
+			 type: "noun"}
+		 ]},
+		 {quote: "Eat shit and die.",
+		 replacables: [
+			{position: 1,
+			 type: "noun"}
+		 ]},
+		 {quote: "Get that crap outta here!",
+		 replacables: [
+			{position: 2,
+			 type: "noun"},
+			 position: 4,
+			 type: "noun"}
+		 ]},
+		 {quote: "Get back to work, you slacker!",
+		 replacables: [
+			{position: 5,
+			 type: "noun"}
+		 ]},
+		 {quote: "Go ahead, make my day.",
+		 replacables: [
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		 {quote: "Hmm, don't have time to play with myself.",
+		 replacables: [
+			{position: 3,
+			 type: "noun"},
+			 {position: 7,
+			 type: "noun"}
+		 ]},
+		 {quote: "Hmm, that's one "Doomed" Space Marine",
+		 replacables: [
+			{position: 4,
+			 type: "noun"},
+			 {position: 5,
+			 type: "noun"}
+		 ]},
+		 {quote: "Hmm, that's one "Doomed" Space Marine",
+		 replacables: [
+			{position: 4,
+			 type: "adjective"},
+			 {position: 5,
+			 type: "noun"}
+		 ]},
+		 {quote: "I'll rip your head off and shit down your neck.",
+		 replacables: [
+			{position: 1,
+			 type: "verb"},
+			 {position: 3,
+			 type: "noun"},
+			 {position: 6,
+			 type: "verb"},
+			 {position: 9,
+			 type: "noun"}
+		 ]},
+		 {quote: "I'm Duke Nukem - and I'm coming to get the rest of you alien bastards!",
+		 replacables: [
+			{position: 2,
+			 type: "noun"},
+			 {position: 6,
+			 type: "verbing"},
+			 {position: 13,
+			 type: "adjective"}
+		 ]},
+		 {quote: "I'm gonna get medieval on your asses!",
+		 replacables: [
+			{position: 3,
+			 type: "adjective"},
+			 {position: 6,
+			 type: "nouns"}
+		 ]},
+		 {quote: "",
+		 replacables: [
+			{position: ,
+			 type: ""}
+		 ]},
+		 {quote: "I'm gonna kick your ass, bitch!",
+		 replacables: [
+			{position:4 ,
+			 type: "noun"},
+			{position: 5,
+			 type: "noun"}
+		 ]},
+		 {quote: "I ain't afraid of no quake!",
+		 replacables: [
+			{position: 3,
+			 type: "adjective"},
+			 {position: 5, 
+			  typoe: "noun"}
+		 ]},
+		 {quote: "I should have known those alien maggots booby-trapped this sub",
+		 replacables: [
+			{position: 5,
+			 type: "adjective"},
+			 {position: 9,
+			 type: "noun"}
+		 ]},
+		 {quote: "It's time to kick ass and chew bubble gum... and I'm all outta gum.",
+		 replacables: [
+			{position: 4,
+			 type: "noun"},
+			{position: 7,
+			 type: "adjective"},
+			{position: 8,
+			 type: "noun"},
+			{position: 13,
+			 type: "noun"}
+		 ]},
+		 {quote: "It's down to you and me, you one-eyed freak!",
+		 replacables: [
+			{position: 8,
+			 type: "adjective"},
+			 {position: 9,
+			 type: "noun"}
+		 ]},
+		 {quote: "It's time to abort your whole freaking species!",
+		 replacables: [
+			{position: 3,
+			 type: "verb"},
+			 {position: 6,
+			 type: "adjective"},
+			 {position: 7,
+			 type: "noun"}
+		 ]},
+		 {quote: "Let God sort 'em out!",
+		 replacables: [
+			{position: 1,
+			 type: "noun"}
+		 ]},
+		 {quote: "Lucky son of a bitch.",
+		 replacables: [
+			{position: 0,
+			 type: "adjective"},
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		 {quote: "Mess with the best, you will die like the rest",
+		 replacables: [
+			{position: 0,
+			 type: "verb"},
+			{position: 3,
+			 type: "adjective"},
+			{position: 6,
+			 type: "verb"},
+			{position: 9,
+			 type: "noun"}
+		 ]}
+		#{quote: "",
+		#replacables: [
+		#	{position: ,
+		#	 type: ""}
+		#]}
+	]
+}
+
+{
+	game: "Shadow Warrior",
+	character: "Lo Wang",
+	quotes: [
+		{quote: "Oh, like I scared of little snake!",
+		 replacables: [
+			{position: 5,
+			 type: "adjective"}, 
+			{position: 6,
+			 type: "noun"}
+		 ]},
+		{quote: "I am the Shadow Warrior.",
+		 replacables: [
+			{position: 3,
+			 type: "adjective"},
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		{quote: "You no mess with Lo Wang!",
+		 replacables: [
+			{position: 2,
+			 type: "verb"},
+			{position: 4,
+			 type: "adjective"},
+			{position: 5,
+			 type: "noun"}
+		 ]},
+		{quote: "Who wants some Wang?",
+		 replacables: [
+			{position: 4,
+			 type: "noun"},
+		 ]},
+		{quote: "A ninja knows no fear",
+		 replacables: [
+			{position: 1,
+			 type: "noun"},
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		{quote: "Pain is for the weak.",
+		 replacables: [
+			{position: 0,
+			 type: "noun"},
+			{position: 4,
+			 type: "adjective"}
+		 ]},
+		{quote: "You make another stupid move!",
+		 replacables: [
+			{position: 1,
+			 type: "verb"},
+			{position: 3,
+			 type: "adjective"},
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		{quote: "You look like a stupid!",
+		 replacables: [
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		{quote: "Try hunting both of us!",
+		 replacables: [
+			{position: 4,
+			 type: "noun"}
+		 ]},
+		{quote: "It is natural to die.",
+		 replacables: [
+			{position: 2,
+			 type: "adjective"},
+			{position: 4,
+			 type: "verb"}
+		 ]}
+	]
+}
+
+{
+	game: "Blood",
+	character: "Caleb",
+	quotes: [
+		{quote: "When you get to hell, tell them I sent you. You'll get a group discount.",
+		 replacables: [
+			{position: 4,
+			 type: "noun"},
+			{position: 8,
+			 type: "verbed"},
+			{position: 13,
+			 type: "noun"},
+			{position: 14,
+			 type: "noun"}
+		 ]},
+		{quote: ""This promises to be fun",
+		 replacables: [
+			{position: 4,
+			 type: "adjective"}
+		 ]},
+		{quote: "Ughh, and I thought I was ugly",
+		 replacables: [
+			{position: 4,
+			 type: "noun"},
+			{position: 6,
+			 type: "adjective"}
+		 ]},
+		{quote: "I never said I was smart",
+		 replacables: [
+			{position: 3,
+			 type: "noun"},
+			{position: 5,
+			 type: "adjective"}
+		 ]},
+		{quote: "I'm gonna have to put you down!",
+		 replacables: [
+			{position: 4,
+			 type: "verb"},
+			{position: 6,
+			 type: "noun"}
+		 ]},
+		{quote: ""I am denial, I will face nothing!",
+		 replacables: [
+			{position: 2,
+			 type: "noun"},
+			{position: 6,
+			 type: "noun"}
+		 ]},
+		{quote: "Another day another corpse.",
+		 replacables: [
+			{position: 3,
+			 type: "noun"}
+		 ]},
+		{quote: "I'll have a BLT, that's a lettuce, tomato, and blood sandwich. Hold the mayo, huh?",
+		 replacables: [
+			{position: 3,
+			 type: "noun"},
+			{position: 6,
+			 type: "noun"},
+			{position: 7,
+			 type: "noun"},
+			{position: 9,
+			 type: "noun"},
+			{position: 10,
+			 type: "noun"},
+			{position: 13,
+			 type: "noun"}
+		 ]},
+		{quote: "Now, where did all those gun-toting madmen get to?",
+		 replacables: [
+			{position: 5,
+			 type: "adjective"},
+			{position: 6,
+			 type: "noun"}
+		 ]},
+		{quote: "Lucky you, killed by the best!",
+		 replacables: [
+			{position: 0,
+			 type: "adjective"},
+			{position: 5,
+			 type: "adjective"}
+		 ]}
+	]
+}
